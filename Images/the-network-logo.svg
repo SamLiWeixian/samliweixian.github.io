@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <defs>
+    <linearGradient id="networkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="80" fill="white" stroke="#E5E7EB" stroke-width="1" rx="8"/>
+  
+  <!-- Network Icon -->
+  <circle cx="20" cy="30" r="4" fill="url(#networkGrad)"/>
+  <circle cx="35" cy="25" r="4" fill="url(#networkGrad)"/>
+  <circle cx="30" cy="45" r="4" fill="url(#networkGrad)"/>
+  <circle cx="45" cy="40" r="4" fill="url(#networkGrad)"/>
+  
+  <!-- Connecting lines -->
+  <line x1="20" y1="30" x2="35" y2="25" stroke="url(#networkGrad)" stroke-width="2"/>
+  <line x1="20" y1="30" x2="30" y2="45" stroke="url(#networkGrad)" stroke-width="2"/>
+  <line x1="35" y1="25" x2="45" y2="40" stroke="url(#networkGrad)" stroke-width="2"/>
+  <line x1="30" y1="45" x2="45" y2="40" stroke="url(#networkGrad)" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="65" y="35" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#0F172A">The Network</text>
+  <text x="65" y="52" font-family="Inter, Arial, sans-serif" font-size="12" fill="#64748B">Professional Community</text>
+</svg>
